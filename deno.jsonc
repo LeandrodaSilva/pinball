@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-ffi --allow-env --allow-run --allow-net main.ts",
+    "island": "deno bundle ./islands/index.ts ./public/js/bundle.js"
+  }
+}
