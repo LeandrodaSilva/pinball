@@ -1,8 +1,8 @@
 import {Application, Router} from 'https://deno.land/x/oak@v10.6.0/mod.ts'
 import html from "./index.ts";
 
-const i = Deno.run({ cmd: ["deno", "task", "island"] });
-await i.status();
+// const i = Deno.run({ cmd: ["deno", "task", "island"] });
+// await i.status();
 
 const router = new Router()
 
